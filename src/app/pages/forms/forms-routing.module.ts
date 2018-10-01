@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { FormsComponent } from './forms.component';
 import { FormInputsComponent } from './form-inputs/form-inputs.component';
 import { FormLayoutsComponent } from './form-layouts/form-layouts.component';
+import { AdministradoraFormComponent } from './administradora-form/administradoraForm.component';
 
 const routes: Routes = [{
   path: '',
@@ -14,6 +15,10 @@ const routes: Routes = [{
   }, {
     path: 'layouts',
     component: FormLayoutsComponent,
+  },
+  {
+    path: 'administradora',
+    component: AdministradoraFormComponent,
   }],
 }];
 
@@ -33,4 +38,5 @@ export const routedComponents = [
   FormsComponent,
   FormInputsComponent,
   FormLayoutsComponent,
+  AdministradoraFormComponent,
 ];

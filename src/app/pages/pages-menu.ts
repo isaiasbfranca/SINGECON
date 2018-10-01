@@ -2,165 +2,106 @@ import { NbMenuItem } from '@nebular/theme';
 
 export const MENU_ITEMS: NbMenuItem[] = [
   {
-    title: 'UI Features',
-    icon: 'nb-keypad',
-    link: '/pages/ui-features',
+    title: 'Inicio',
+    icon: 'nb-home',
+    link: '/pages/dashboard',
+  },
+  {
+    title: 'Geral',
+    icon: 'nb-list',
+    link: 'pages/forms',
     children: [
       {
-        title: 'Buttons',
-        link: '/pages/ui-features/buttons',
+        title: 'Administradora',
+        link: '/pages/forms/administradora',
       },
       {
-        title: 'Grid',
-        link: '/pages/ui-features/grid',
+        title: 'Condominio',
+        link: '#',
       },
       {
-        title: 'Icons',
-        link: '/pages/ui-features/icons',
+        title: 'Unidades',
+        link: '#',
       },
       {
-        title: 'Modals',
-        link: '/pages/ui-features/modals',
+        title: 'Proprietários',
+        link: '#',
       },
       {
-        title: 'Popovers',
-        link: '/pages/ui-features/popovers',
+        title: 'Contas Financeiras',
+        link: '#',
       },
       {
-        title: 'Typography',
-        link: '/pages/ui-features/typography',
+        title: 'Planos de Contas',
+        link: '#',
+        children: [
+          {
+            title: 'Contas de Receita/Despesa',
+            link: '#',
+          },
+          {
+            title: 'Contas de Disponibilidade',
+            link: '#',
+          }
+        ]
       },
       {
-        title: 'Animated Searches',
-        link: '/pages/ui-features/search-fields',
-      },
-      {
-        title: 'Tabs',
-        link: '/pages/ui-features/tabs',
+        title: 'Imobiliárias',
+        link: '#',
       },
     ],
   },
   {
-    title: 'Forms',
-    icon: 'nb-compose',
-    children: [
-      {
-        title: 'Form Inputs',
-        link: '/pages/forms/inputs',
-      },
-      {
-        title: 'Form Layouts',
-        link: '/pages/forms/layouts',
-      },
-    ],
-  },
-  {
-    title: 'Components',
+    title: 'Configuração',
     icon: 'nb-gear',
+    link: '#',
     children: [
       {
-        title: 'Tree',
-        link: '/pages/components/tree',
-      }, {
-        title: 'Notifications',
-        link: '/pages/components/notifications',
+        title: 'Configurações Gerais',
+        link: '#',
+      },
+      {
+        title: 'Régua de Cobrança',
+        link: '#',
+      },
+      {
+        title: 'Instruções de Boleto',
+        link: '#',
+      },
+      {
+        title: 'Indices Atualização Monetária',
+        link: '#',
+      },
+      {
+        title: 'Assinatura dos Relatórios',
+        link: '#',
+      },
+      {
+        title: 'Log de Atividades',
+        link: '#',
       },
     ],
   },
-  {
-    title: 'Maps',
-    icon: 'nb-location',
-    children: [
-      {
-        title: 'Google Maps',
-        link: '/pages/maps/gmaps',
-      },
-      {
-        title: 'Leaflet Maps',
-        link: '/pages/maps/leaflet',
-      },
-      {
-        title: 'Bubble Maps',
-        link: '/pages/maps/bubble',
-      },
-      {
-        title: 'Search Maps',
-        link: '/pages/maps/searchmap',
-      },
-    ],
-  },
-  {
-    title: 'Charts',
-    icon: 'nb-bar-chart',
-    children: [
-      {
-        title: 'Echarts',
-        link: '/pages/charts/echarts',
-      },
-      {
-        title: 'Charts.js',
-        link: '/pages/charts/chartjs',
-      },
-      {
-        title: 'D3',
-        link: '/pages/charts/d3',
-      },
-    ],
-  },
-  {
-    title: 'Editors',
-    icon: 'nb-title',
-    children: [
-      {
-        title: 'TinyMCE',
-        link: '/pages/editors/tinymce',
-      },
-      {
-        title: 'CKEditor',
-        link: '/pages/editors/ckeditor',
-      },
-    ],
-  },
-  {
-    title: 'Tables',
-    icon: 'nb-tables',
-    children: [
-      {
-        title: 'Smart Table',
-        link: '/pages/tables/smart-table',
-      },
-    ],
-  },
-  {
-    title: 'Miscellaneous',
-    icon: 'nb-shuffle',
-    children: [
-      {
-        title: '404',
-        link: '/pages/miscellaneous/404',
-      },
-    ],
-  },
-  {
-    title: 'Auth',
-    icon: 'nb-locked',
-    children: [
-      {
-        title: 'Login',
-        link: '/auth/login',
-      },
-      {
-        title: 'Register',
-        link: '/auth/register',
-      },
-      {
-        title: 'Request Password',
-        link: '/auth/request-password',
-      },
-      {
-        title: 'Reset Password',
-        link: '/auth/reset-password',
-      },
-    ],
-  },
+  // {
+  //   title: 'Auth',
+  //   icon: 'nb-locked',
+  //   children: [
+  //     {
+  //       title: 'Login',
+  //       link: '/auth/login',
+  //     },
+  //     {
+  //       title: 'Register',
+  //       link: '/auth/register',
+  //     },
+  //     {
+  //       title: 'Request Password',
+  //       link: '/auth/request-password',
+  //     },
+  //     {
+  //       title: 'Reset Password',
+  //       link: '/auth/reset-password',
+  //     },
+  //   ],
+  // },
 ];
